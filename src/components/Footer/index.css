@@ -1,0 +1,44 @@
+.footer-container {
+  background-color: #333;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  padding: 20px; /* Increased padding for more height */
+}
+
+.footer-content {
+  display: flex;
+  flex-direction:row; /* Change to column direction */
+  align-items: center; /* Center items horizontally */
+}
+
+.contact-info,
+.social-links {
+  width: 100%; /* Full width for both sections */
+  text-align: center; /* Center text */
+}
+
+.icons {
+  color: white;
+  border-radius: 20px;
+  border: 2px solid white; /* Added white border */
+  padding: 3px;
+  margin-left:320px;
+  margin-bottom: 5px; /* Added margin to separate icons and names */
+}
+
+.contact-info p {
+  margin: 0;
+}
+
+.social-links a {
+  color: white;
+  text-decoration: none;
+  display: flex; /* Make the links flex containers */
+  align-items: right; /* Align items in the center vertically */
+  margin-bottom: 5px; /* Added margin to separate links */
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
